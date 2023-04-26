@@ -11,7 +11,7 @@ export default async function (hre: HardhatRuntimeEnvironment) {
   console.log(`Running deploy script for the ZKTBG contract`);
 
   // Initialize the wallet.
-  const wallet = new Wallet("962ade0e36cfd80711fe663d194c56cc75571925a47e3c8cc378f5eba5b563bb");
+  const wallet = new Wallet("");
 
 // Create deployer object and load the artifact of the contract you want to deploy.
    const deployer = new Deployer(hre, wallet);
